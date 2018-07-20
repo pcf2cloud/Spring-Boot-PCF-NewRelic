@@ -1,3 +1,55 @@
+# Get started with New Relic
+Select a web agent to install.
+
+
+
+# Install the Java agent
+Before you begin
+You will need:
+Administrator access to the computer on which you will install.
+Ability to configure any firewalls or proxies to allow the agent to report data to New Relic.
+Access to your Windows Azure Administration Portal.
+# Get your license key (Java agent docs)
+Reveal license key
+
+Download the Java agent
+Download the Java agent
+
+Install the agent
+Select your environment:
+ Linux or Mac
+ Windows
+Linux or Mac
+# Unzip the file into your app's home directory:
+
+unzip newrelic-java-4.2.0.zip -d /path/to/appserver/
+# Run the install command from the newrelic directory:
+
+# cd /path/to/appserver/newrelic
+# java -jar newrelic.jar install
+# For more info please reference our installation docs (https://docs.newrelic.com/docs/agents/java-agent/getting-started/introduction-new-relic-java#installation)
+
+Restart your app
+In a few minutes, your application will send data to New Relic
+
+Once New Relic receives the data, your application will be listed here
+
+This page will look similar to:
+
+Java-app-index-sample
+See data in 5 minutes
+In a few minutes, 
+your application will send data to New Relic and you'll be able to start monitoring your application's performance. 
+You will also be automatically upgraded to New Relic PRO for a limited time.
+
+You won't see any data in your dashboard until restart has completed.
+
+Listen for my application
+
+Deployed and still not seeing your data?
+
+
+
 # Spring-Boot-PCF-NewRelic
 
 ![screenshot 2018-07-20 13 24 46](https://user-images.githubusercontent.com/40490811/42994039-a74b2876-8c2a-11e8-94dd-8cd5038d6d7f.png)
